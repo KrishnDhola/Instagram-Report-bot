@@ -34,9 +34,9 @@ def keep_alive():
 keep_alive()
 
 # Initialize the Telegram bot
-API_TOKEN = os.getenv("API_TOKEN")
-FORCE_JOIN_CHANNEL = os.getenv("FORCE_JOIN_CHANNEL")
-ADMIN_ID = os.getenv("ADMIN_ID")
+API_TOKEN = os.getenv("7830052179:AAF1CINMgQ0KI2VJo2P7diYFZqtUZPMoRYc")
+FORCE_JOIN_CHANNEL = os.getenv("t.me/@filesharePybot")
+ADMIN_ID = os.getenv("7235913774")
 
 bot = telebot.TeleBot(API_TOKEN)
 
@@ -278,5 +278,6 @@ if __name__ == "__main__":
     # Start the bot polling in a separate thread
     t = Thread(target=bot.polling)
     t.start()
+
 
 
